@@ -25,7 +25,7 @@ const Clicker = () => {
         <div className="App">
             <h1>Don't get a number between 10 and 20!</h1>
             <h2>Number is: {number}</h2>
-            {number > 10 && number < 20 ? 
+            {number >= 10 && number <= 20 ? 
                 <div>
                     <h4>Game Over</h4>
                     <button onClick={refreshPage}>Reset</button>
